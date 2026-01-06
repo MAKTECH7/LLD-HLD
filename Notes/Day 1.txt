@@ -1,0 +1,46 @@
+LLD focuses on scalability, maintainability(Easily Debuggale) , Re-usability (Plug & play model)
+------------------------------------------------------------------------------------------------
+HLD :
+  Architecture -> Internal design details for building the applications
+
+Monolithic architecture -> if all the components and functionalities of a project are entangled and combined in a single codebase, then that is a monolithic application.
+
+Monolithic architecture has less complexity -> Easier to understand -> Higher productivity 
+
+(Means written and deployed together)
+
+Monolithic system is also known as centralized system.
+
+--------------------------------------------------------------------------------------------------
+advantages :
+
+When it is good,
+
+When we are just starting
+
+In monolithic architecture, all the modules are present in the single system, so they require fewer network calls as compared to other architectures.
+
+It is comparatively easier to secure monolithic system
+
+Integration testing is easier
+
+Less confusion
+--------------------------------------------------------------------------------------------------
+
+Disadvantages of Monolithic Architecture
+
+In monolithic architecture, every module is combined in a single system, so if there is an error or bug in a single module, it can destroy the complete system.
+
+In monolithic architecture, whenever a single module is updated, the whole system needs to be updated to reflect the changes to the users. All modules are present in a single system and are connected to one another, so the whole system needs to be updated.
+
+In monolithic architecture, if there is any change in a single module’s programming language or framework, it will affect the entire system. The entire system needs to be changed because every module is interlinked and tightly coupled.
+---------------------------------------------------------------------------------------------
+
+Very Easy Language (Best for Understanding)
+
+In monolithic architecture, all modules are part of one system. If one module fails, the entire system can stop working.
+
+When any single module is updated, the whole application must be updated because all modules are connected.
+
+If we change the programming language or framework of one module, it affects the entire system because everything is tightly connected.
+-------------------------------------------------------------------------------------------
